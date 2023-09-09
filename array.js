@@ -66,9 +66,11 @@
 //encontrarLetraP ("Prieto");
 
 
-var arr = []
-do {
-arr.push("boom");
-}while (arr.length < 5);
+//var arr = []
+//do {
+//arr.push("boom");
+//}while (arr.length < 5);
 
-console.log(arr);
+//console.log(arr);
+
+

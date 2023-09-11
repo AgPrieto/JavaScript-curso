@@ -17,4 +17,4 @@ console.log(cajon1) ;
 // Null
 var Nada = null;
 
-var necesitopushear = [];
+var necesitopushear = {};

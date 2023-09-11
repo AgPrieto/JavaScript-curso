@@ -48,3 +48,6 @@
 ////var miJugador2 = new Futbol("Cristiano Ronaldo");
 //miJugador.obtenerNombre();
 //miJugador2.obtenerNombre();
+
+
+

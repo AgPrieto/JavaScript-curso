@@ -15,14 +15,14 @@
 //var nuevoArreglo = arregloAux.mayoresQueTres();
 //console.log(nuevoArreglo);
 
-//class LatinoAmerica {
-   // constructor(){
-     //   this.paises = []; 
-   //// }
-//}
-//LatinoAmerica.prototype.agregarPais = function(pais) {
-  //  this.paises.push(pais);
-//}
+class LatinoAmerica {
+   constructor(){
+        this.paises = []; 
+    }
+}
+LatinoAmerica.prototype.agregarPais = function(pais) {
+ this.paises.push(pais);
+}
 
 //var americaDelSur = new LatinoAmerica ();
 //americaDelSur.agregarPais("Argentina");

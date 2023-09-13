@@ -1,0 +1,130 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    color: black;
+    font-size: 45px;
+    font-family: 'Helvetica', sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+nav {
+    color: #008CBA;
+
+  }
+
+  .mi-boton {
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: normal;
+    text-decoration: none;
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin:0 auto
+    
+    
+}
+
+.enlace {
+    margin-right: 20px; 
+    text-decoration: none; 
+    align-items: left;
+    font-weight: bold;
+}
+
+
+header {
+    background-color: #008CBA;
+    color: white;
+    padding: 30px 0;
+  }
+
+  nav ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul.menu li {
+    display: inline; /* Muestra los elementos de navegación en línea */
+    margin-right: 20px;
+  }
+  
+  nav ul.menu li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento para evitar espacio extra */
+  }
+  
+  nav ul.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  .input-container {
+            
+             
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+
+label {
+    display: inline-block;
+    flex: 1; 
+    text-align: start; 
+    margin-right: 5px; 
+}
+
+
+input {
+    flex: 2; 
+    padding: 5px; 
+}
+
+ol ul.Act{
+    list-style-type: none
+
+}
+
+ol ul.Act 
+li::before {
+    content: "✅"; /* Puedes cambiar el emoji por el que desees */
+    margin-right: 5px; /* Agrega espacio entre el emoji y el texto del elemento de lista */
+  }
+
+  ol ul.Dep{
+    list-style-type: none
+
+}
+
+ol ul.Dep 
+li::before {
+    content: "⚽"; /* Puedes cambiar el emoji por el que desees */
+    margin-right: 5px; /* Agrega espacio entre el emoji y el texto del elemento de lista */
+  }
+
+  ol ul.Sho{
+    list-style-type: none
+
+}
+
+ol ul.Sho 
+li::before {
+    content: "💃"; /* Puedes cambiar el emoji por el que desees */
+    margin-right: 5px; /* Agrega espacio entre el emoji y el texto del elemento de lista */
+  }
+
+  .mi-boton:hover {
+    background-color: #009CBA; /* Cambia el color de fondo en hover */
+    color: #fff; /* Cambia el color de texto en hover */
+  }

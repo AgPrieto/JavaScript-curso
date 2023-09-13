@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        
+        
+        .input-container {
+            
+             
+            align-items: center; 
+            margin-bottom: 10px; 
+        }
+
+      
+        label {
+            display: inline-block;
+            flex: 1; 
+            text-align: left; 
+            margin-right: 5px; 
+        }
+
+        
+        input {
+            flex: 2; 
+            padding: 5px; 
+        }
+        
+        .enlace {
+            margin-right: 20px; 
+            text-decoration: none; 
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/index.html" class="enlace">Inicio</a></li>
+            <li><a href="/about.html" class="enlace">Acerca de</a></li>
+            <li><a href="/visitactivities.html" class="enlace">Visitas y actividades</a></li>
+            <li><a href="/accommodation2.html" class="enlace">Hospedaje</a></li>
+            <li><a href="/entertainment.html" class="enlace">Entretenimiento</a></li>
+            <li><a href="/form.html" class="enlace">Contactenos</a></li>
+          </ul>
+          
+    </nav>
+   <form method="post" action="mailto:aguspv99@gmail.com"></form>
+<div class="input-container">
+   <label for="nombreUsuario">Nombre de usuario:</label>
+   <input type=" text" name="nombreUsuario" id="nombreUsuario" required><br>
+</div>
+<div class="input-container">
+   <label for="emailUsuario">Email:</label>
+   <input type="email" name="emailUsuario" id="emailUsuario" required><br>
+</div>
+<div class="input-container">
+   <label for="areaTexto">Mensaje:</label>
+   <textarea id="areaTexto" name="areaTexto" rows="4" cols="50" required></textarea><br>
+</div>
+   
+   <input type="submit" value="Enviar">
+
+</body>
+
+
+</html>

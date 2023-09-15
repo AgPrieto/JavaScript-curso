@@ -1,11 +1,13 @@
 body {
-    background-color: lightgray;
-    font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
   }
 
   h1 {
     color: black;
-    font-size: 45px;
+    font-size: 38px;
     font-family: 'Helvetica', sans-serif;
     text-transform: uppercase;
 }
@@ -15,11 +17,13 @@ p {
     font-family: Arial, sans-serif;
   }
 nav {
-    color: #008CBA;
-
+  text-align: center;
+  height: 80px;
+  vertical-align: middle;
   }
 
   .mi-boton {
+    
     transition: background-color 0.3s, color 0.3s;
     font-weight: normal;
     text-decoration: none;
@@ -30,6 +34,7 @@ nav {
     border-radius: 5px;
     cursor: pointer; 
     margin:0 auto
+    
     
     
 }
@@ -43,39 +48,40 @@ nav {
 
 
 header {
-    background-color: #008CBA;
-    color: white;
-    padding: 30px 0;
-  }
-
-  nav ul.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  nav ul.menu li {
-    display: inline; /* Muestra los elementos de navegación en línea */
-    margin-right: 20px;
-  }
-  
-  nav ul.menu li:last-child {
-    margin-right: 0; /* Elimina el margen derecho del último elemento para evitar espacio extra */
-  }
-  
-  nav ul.menu li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
-
-  .input-container {
-            
-             
-    align-items: center; 
-    margin-bottom: 10px; 
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  height: 60px;
+  margin-top: 0;
 }
+
+
+nav ul.menu {
+  list-style-type: none;
+  
+  padding: 0;
+}
+
+nav ul.menu li {
+  display: inline;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+nav ul.menu li:last-child {
+  margin-right: 0;
+}
+
+nav ul.menu li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+  
 
 
 label {
@@ -128,3 +134,137 @@ li::before {
     background-color: #009CBA; /* Cambia el color de fondo en hover */
     color: #fff; /* Cambia el color de texto en hover */
   }
+
+  .tabla {
+    border: 1;
+    border-collapse: collapse; 
+    
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif  ;
+    height: 100%;
+    width: 80%;
+    margin: 0%;
+    padding: 0%;
+    background-color: none;
+}
+
+.tabla-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  
+  
+}
+.tabla td, .tabla th {
+  
+  border: 2px solid #ccc;
+  padding: 0;
+  height: 100%;
+  
+  }
+
+  .mi-boton-conteiner{
+    align-items: center;
+    text-align: center;
+  }
+
+  
+a {
+  color: #008CBA;
+  text-decoration: none;
+  margin:0 10px; 
+  padding:10px 15px;
+  transition: 0.3s ease-in-out;
+  
+
+}
+
+.boton2 {
+  position: absolute;
+  top: 20%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: white;
+  color: #008CBA;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+.hoja {
+  width: 75%;
+ 
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos del contenido */
+.contenido {
+  text-align: start;
+  }
+
+  .hojaDos {
+    
+    width: 30%;
+    height: 650px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    
+    height: 62vh;
+  }
+  
+  .campo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  span {
+    font-weight: bold;
+    margin-bottom: 5px;
+
+  }
+
+  input[type="text"],
+input[type="email"] {
+  width: 80%;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: greenyellow;
+}
+  
+.formulario {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
